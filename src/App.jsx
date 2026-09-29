@@ -1,9 +1,16 @@
 import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import CategoryPills from './components/CategoryPills';
 
-export default function App() {
+function App() {
   return (
-    <div className="min-h-screen bg-white">
-      <h1 className="text-3xl font-bold text-center py-10">ByteSpace Home Page</h1>
+    <div className="min-h-screen bg-gray-50 font-sans">
+      <Navbar />
+      <Hero />
+      < CategoryPills/>
     </div>
   );
 }
+
+export default App;
