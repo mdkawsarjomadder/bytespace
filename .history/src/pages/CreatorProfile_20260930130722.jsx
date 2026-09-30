@@ -1,13 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
-import images14 from '../assets/14.png';
-import images06 from '../assets/06.jpg';
-import images07 from '../assets/07.jpg';
-import images08 from '../assets/08.jpg';
-import images09 from '../assets/09.jpg';
-import images10 from '../assets/10.jpg';
-import images11 from '../assets/11.jpg';
 import { 
   ShoppingBag, 
   SlidersHorizontal, 
@@ -33,7 +25,7 @@ const CreatorProfile = () => {
       comments: '59 Comments',
       level: 'Beginner',
       price: '$25',
-      image: images06,
+      image: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=500&q=80',
     },
     {
       id: 2,
@@ -45,7 +37,7 @@ const CreatorProfile = () => {
       comments: '59 Comments',
       level: 'Beginner',
       price: '$25',
-      image: images07,
+      image: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=500&q=80',
     },
     {
       id: 3,
@@ -57,7 +49,7 @@ const CreatorProfile = () => {
       comments: '59 Comments',
       level: 'Beginner',
       price: '$25',
-      image: images08,
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=500&q=80',
     },
     {
       id: 4,
@@ -69,7 +61,7 @@ const CreatorProfile = () => {
       comments: '59 Comments',
       level: 'Beginner',
       price: '$25',
-      image: images09,
+      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=500&q=80',
     },
     {
       id: 5,
@@ -81,7 +73,7 @@ const CreatorProfile = () => {
       comments: '59 Comments',
       level: 'Beginner',
       price: '$25',
-      image: images10,
+      image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=500&q=80',
     },
     {
       id: 6,
@@ -93,7 +85,7 @@ const CreatorProfile = () => {
       comments: '59 Comments',
       level: 'Beginner',
       price: '$25',
-      image: images11,
+      image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=80',
     },
   ];
 
@@ -141,7 +133,7 @@ const CreatorProfile = () => {
             {/* Creator Image + Name + Tag */}
             <div className="flex items-center gap-4">
               <img
-                src={images14}
+                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80"
                 alt="PurePearl Studio"
                 className="w-16 h-16 rounded-2xl object-cover border-2 border-white/30 shadow-md"
               />

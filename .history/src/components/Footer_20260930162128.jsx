@@ -132,7 +132,7 @@ const Footer = () => {
 
         {/* ================= BOTTOM COPYRIGHT BAR ================= */}
         <div className="pt-8 border-t border-gray-100 flex flex-col sm:flex-row items-center justify-between gap-4 text-[13px] text-gray-500">
-          <p>© 2026 ByteSpace. All rights reserved.</p>
+          <p>© 2023 ByteSpace. All rights reserved.</p>
 
           <div className="flex items-center gap-6">
             <Link to="/privacy" className="hover:text-black transition-colors">

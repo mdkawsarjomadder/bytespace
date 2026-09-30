@@ -1,11 +1,7 @@
 import React from 'react';
 import { BarChart2 } from 'lucide-react';
 import One1 from '../assets/01.png';
-import Images6 from '../assets/06.jpg';
-import Images3 from '../assets/03.png';
-import Images11 from '../assets/11.jpg';
-import Images14 from '../assets/14.png';
-import Images13 from '../assets/13.png';
+import One6 from '../assets/06.jpg';
 
 const GrowthStats = () => {
   return (
@@ -83,7 +79,7 @@ const GrowthStats = () => {
               {/* Image & Overlays */}
               <div className="relative w-full h-[215px] rounded-[18px] overflow-hidden bg-gray-100">
                 <img
-                  src={Images6}
+                  src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=600&q=80"
                   alt="Learn Figma from Basic"
                   className="w-full h-full object-cover"
                 />
@@ -123,25 +119,25 @@ const GrowthStats = () => {
                   <div className="flex items-center -space-x-2 shrink-0">
                     {/* 1. Man with glasses */}
                     <img
-                      src={Images3}
+                      src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&w=80&q=80"
                       alt="Student 1"
                       className="w-7 h-7 rounded-full border-2 border-white object-cover"
                     />
                     {/* 2. Curly blonde hair */}
                     <img
-                      src={Images11}
+                      src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=80&q=80"
                       alt="Student 2"
                       className="w-7 h-7 rounded-full border-2 border-white object-cover"
                     />
                     {/* 3. Dark hair woman */}
                     <img
-                      src={Images14}
+                      src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=80&q=80"
                       alt="Student 3"
                       className="w-7 h-7 rounded-full border-2 border-white object-cover"
                     />
                     {/* 4. Man in blue shirt */}
                     <img
-                      src={Images13}
+                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=80&q=80"
                       alt="Student 4"
                       className="w-7 h-7 rounded-full border-2 border-white object-cover"
                     />

@@ -3,7 +3,7 @@ import { BarChart2 } from 'lucide-react';
 import One1 from '../assets/01.png';
 import Images6 from '../assets/06.jpg';
 import Images3 from '../assets/03.png';
-import Images11 from '../assets/11.jpg';
+import Images11 from '../assets/11.png';
 import Images14 from '../assets/14.png';
 import Images13 from '../assets/13.png';
 

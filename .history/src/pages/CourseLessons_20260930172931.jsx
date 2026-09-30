@@ -49,7 +49,7 @@ const CourseReviews = () => {
       name: 'Albert Flores',
       role: 'UI/UX Designer',
       time: 'a year ago',
-      avatar: images21,
+      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80',
       comment:
         'This course transformed my approach to digital design. The combination of theory, hands-on exercises, and real-world applications made it a truly enriching experience. Excited to implement what I\'ve learned!',
     },
@@ -58,7 +58,7 @@ const CourseReviews = () => {
       name: 'Cody Fisher',
       role: 'UI/UX Designer',
       time: 'a year ago',
-      avatar: images04,
+      avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80',
       comment:
         'The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills. It added a unique and valuable dimension to the learning process.',
     },
@@ -67,7 +67,7 @@ const CourseReviews = () => {
       name: 'Brooklyn Simmons',
       role: 'UI/UX Designer',
       time: 'a year ago',
-      avatar: images22,
+      avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80',
       comment:
         'The lessons on optimizing digital assets for various platforms were particularly insightful. The course adapts to the evolving digital landscape, and the engaging content kept me motivated throughout.',
     },

@@ -52,7 +52,7 @@ function App() {
 
         {/* Courses & Search Routes */}
         <Route path="/search" element={<SearchPage />} />
-        <Route path="/courses" element={<CourseDetails />} />
+        <Route path="/about" element={<CourseDetails />} />
         <Route path="/course-details" element={<CourseDetails />} />
         <Route path="/lessons" element={<CourseLessons />} />
         <Route path="/reviews" element={<CourseReviews />} />

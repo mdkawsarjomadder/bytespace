@@ -145,9 +145,9 @@ const CourseGrid = () => {
                   {/* Avatars */}
                   <div className="flex items-center -space-x-1.5">
                     <img className="w-6 h-6 rounded-full border border-white object-cover" src={images14} alt="avatar" />
-                    <img className="w-6 h-6 rounded-full border border-white object-cover" src={images13}  alt="avatar" />
-                    <img className="w-6 h-6 rounded-full border border-white object-cover" src={images3}  alt="avatar" />
-                    <img className="w-6 h-6 rounded-full border border-white object-cover" src={images12}  alt="avatar" />
+                    <img className="w-6 h-6 rounded-full border border-white object-cover" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=64&q=80" alt="avatar" />
+                    <img className="w-6 h-6 rounded-full border border-white object-cover" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=64&q=80" alt="avatar" />
+                    <img className="w-6 h-6 rounded-full border border-white object-cover" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=64&q=80" alt="avatar" />
                     <div className="w-6 h-6 rounded-full bg-[#CBFC01] border border-white flex items-center justify-center text-[9px] font-bold text-black">
                       26+
                     </div>

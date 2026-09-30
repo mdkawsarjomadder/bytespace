@@ -1,15 +1,11 @@
 import React from 'react';
 import { Star, BarChart } from 'lucide-react';
-import images3 from '../assets/03.png';
 import images6 from '../assets/06.jpg';
 import images7 from '../assets/07.jpg';
 import images8 from '../assets/08.jpg';
 import images9 from '../assets/09.jpg';
 import images10 from '../assets/10.jpg';
 import images11 from '../assets/11.jpg';
-import images12 from '../assets/12.png';
-import images13 from '../assets/13.png';
-import images14 from '../assets/14.png';
 
 const courses = [
   {
@@ -144,10 +140,10 @@ const CourseGrid = () => {
 
                   {/* Avatars */}
                   <div className="flex items-center -space-x-1.5">
-                    <img className="w-6 h-6 rounded-full border border-white object-cover" src={images14} alt="avatar" />
-                    <img className="w-6 h-6 rounded-full border border-white object-cover" src={images13}  alt="avatar" />
-                    <img className="w-6 h-6 rounded-full border border-white object-cover" src={images3}  alt="avatar" />
-                    <img className="w-6 h-6 rounded-full border border-white object-cover" src={images12}  alt="avatar" />
+                    <img className="w-6 h-6 rounded-full border border-white object-cover" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=64&q=80" alt="avatar" />
+                    <img className="w-6 h-6 rounded-full border border-white object-cover" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=64&q=80" alt="avatar" />
+                    <img className="w-6 h-6 rounded-full border border-white object-cover" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=64&q=80" alt="avatar" />
+                    <img className="w-6 h-6 rounded-full border border-white object-cover" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=64&q=80" alt="avatar" />
                     <div className="w-6 h-6 rounded-full bg-[#CBFC01] border border-white flex items-center justify-center text-[9px] font-bold text-black">
                       26+
                     </div>

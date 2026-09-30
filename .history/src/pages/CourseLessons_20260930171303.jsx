@@ -2,10 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import images20 from '../assets/20.jpg';
 import images19 from '../assets/19.jpg';
-import images23 from '../assets/23.png';
-import images21 from '../assets/21.png';
-import images04 from '../assets/04.png';
-import images22 from '../assets/22.png';
 
 import { 
   ShoppingBag, 
@@ -40,7 +36,7 @@ const CourseReviews = () => {
       name: 'PurePearl Studio',
       role: 'UI/UX Designer',
       time: 'a year ago',
-      avatar: images23,
+      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80',
       comment:
         '"The course provided me with a comprehensive understanding of digital asset creation. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!"',
     },
@@ -49,7 +45,7 @@ const CourseReviews = () => {
       name: 'Albert Flores',
       role: 'UI/UX Designer',
       time: 'a year ago',
-      avatar: images21,
+      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80',
       comment:
         'This course transformed my approach to digital design. The combination of theory, hands-on exercises, and real-world applications made it a truly enriching experience. Excited to implement what I\'ve learned!',
     },
@@ -58,7 +54,7 @@ const CourseReviews = () => {
       name: 'Cody Fisher',
       role: 'UI/UX Designer',
       time: 'a year ago',
-      avatar: images04,
+      avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80',
       comment:
         'The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills. It added a unique and valuable dimension to the learning process.',
     },
@@ -67,7 +63,7 @@ const CourseReviews = () => {
       name: 'Brooklyn Simmons',
       role: 'UI/UX Designer',
       time: 'a year ago',
-      avatar: images22,
+      avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80',
       comment:
         'The lessons on optimizing digital assets for various platforms were particularly insightful. The course adapts to the evolving digital landscape, and the engaging content kept me motivated throughout.',
     },
@@ -154,128 +150,126 @@ const CourseReviews = () => {
           </div>
 
           {/* ================= 2. CARDS ROW ================= */}
-         <div className="mt-7 grid grid-cols-1 lg:grid-cols-12 gap-8 items-start relative">
-                     
-                     {/* Left: 720 x 479 Video Box with Boro Play Button */}
-                     <div className="lg:col-span-8 flex justify-center lg:justify-start">
-                       <div className="w-full max-w-[720px] h-[479px] bg-[#E3E4E8] rounded-[24px] overflow-hidden relative flex items-end justify-center shadow-xl border border-white/20 shrink-0">
-                         <img
-                           src={images20}
-                           alt="Course Instructor"
-                           className="w-full h-full object-cover object-bottom pointer-events-none"
-                         />
-         
-                         {/* Boro Frosted Glass Play Button */}
-                         <div className="absolute inset-0 flex items-center justify-center">
-                           <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-white/85 backdrop-blur-md flex items-center justify-center shadow-[0_10px_40px_rgba(0,0,0,0.3)] hover:scale-110 active:scale-95 transition-all duration-300 border border-white/70 cursor-pointer group">
-                             <div className="w-0 h-0 border-t-[14px] border-t-transparent border-b-[14px] border-b-transparent border-l-[24px] border-l-gray-800 ml-2 group-hover:border-l-black transition-colors" />
-                           </div>
-                         </div>
-                       </div>
-                     </div>
-         
-                     {/* Right: EXACT FIGMA SIDEBAR */}
-                     <div className="lg:col-span-4 relative z-30 -mb-96 py-12 top-14 flex justify-center lg:justify-end">
-                       <div className="w-full max-w-[412px] bg-white rounded-[32px] p-10 shadow-[0_20px_50px_rgba(0,0,0,0.08)] border border-gray-100 flex flex-col gap-6 text-left shrink-0">
-                         
-                         {/* 1. Lessons Syllabus */}
-                         <div className="flex flex-col">
-                           <h4 className="text-[18px] font-bold text-gray-900 mb-3 tracking-tight font-['Satoshi',sans-serif]">
-                             112 Lessons (24 hours)
-                           </h4>
-                           <div className="flex flex-col gap-3 text-[13px]">
-                             <div className="flex items-center justify-between text-gray-800">
-                               <span className="truncate pr-2 font-medium">01 Introduction to Digital Assets</span>
-                               <span className="text-[#1456fd] text-xs font-semibold shrink-0">12 mins</span>
-                             </div>
-                             <div className="flex items-center justify-between text-gray-800">
-                               <span className="truncate pr-2 font-medium">02 Design Principles for Impacts</span>
-                               <span className="text-[#1456fd] text-xs font-semibold shrink-0">21 mins</span>
-                             </div>
-                             <div className="flex items-center justify-between text-gray-800">
-                               <span className="truncate pr-2 font-medium">03 Advanced Techniques in Digital Creation</span>
-                               <span className="text-[#1456fd] text-xs font-semibold shrink-0">16 mins</span>
-                             </div>
-                             <span className="text-[12px] text-gray-400 font-medium pt-1">
-                               99 more videos
-                             </span>
-                           </div>
-                         </div>
-         
-                         {/* 2. Ready to Dive In, Price & Enroll Button */}
-                         <div className="flex flex-col gap-3">
-                           <p className="text-[13px] text-gray-600 leading-snug">
-                             Ready to Dive In? Enroll Now and Start Building Your Digital Future!
-                           </p>
-                           <div className="flex items-baseline gap-1">
-                             <span className="text-[32px] font-bold text-[#1456fd] leading-none">$25</span>
-                             <span className="text-[13px] text-gray-500 font-normal">/lifetime</span>
-                           </div>
-                           
-                           <button 
-                             type="button"
-                             className="w-full mt-1 bg-[#CBFC01] hover:bg-[#b8e500] text-black font-semibold text-[15px] py-3.5 rounded-full shadow-xs transition-transform active:scale-95 cursor-pointer"
-                           >
-                             Enroll Now
-                           </button>
-                         </div>
-         
-                         {/* 3. This Course Include */}
-                         <div className="flex flex-col gap-3">
-                           <h5 className="text-[15px] font-bold text-gray-900 tracking-tight">
-                             This course include
-                           </h5>
-                           <hr className="border-t border-gray-100" />          
-                           <div className="flex flex-col gap-3 text-[13px] text-gray-600">
-                             <div className="flex items-center gap-3">
-                               <FileText className="w-4 h-4 text-[#1456fd] shrink-0" />
-                               <span>Learning Resources</span>
-                             </div>
-                             <div className="flex items-center gap-3">
-                               <Video className="w-4 h-4 text-[#1456fd] shrink-0" />
-                               <span>Quality Lesson Videos</span>
-                             </div>
-                             <div className="flex items-center gap-3">
-                               <Award className="w-4 h-4 text-[#1456fd] shrink-0" />
-                               <span>Certificate of Completion</span>
-                             </div>
-                             <div className="flex items-center gap-3">
-                               <MessageSquare className="w-4 h-4 text-[#1456fd] shrink-0" />
-                               <span>Private Consultation</span>
-                             </div>
-                           </div>
-                         </div>
-         
-                         {/* 4. Creator Profile */}
-                         <div className="pt-6 border-t border-gray-100 flex flex-col gap-4">
-                           <div className="flex items-center gap-3">
-                             <img
-                               src={images19}
-                               alt="Creator"
-                               className="w-11 h-11 rounded-full object-cover border border-gray-200"
-                             />
-                             <div>
-                               <h5 className="text-[14px] font-bold text-gray-900 leading-tight">PurePearl Studio</h5>
-                               <p className="text-[12px] text-gray-400 mt-0.5">Professional Creator</p>
-                             </div>
-                           </div>
-         
-                           <p className="text-[12px] text-gray-500 leading-relaxed">
-                             Ready to Dive In? Enroll Now and Start Building Your Digital Future!
-                           </p>
-         
-                           <Link 
-                             to="/creators"
-                             className="w-fit px-5 py-2 border border-gray-200 hover:bg-gray-50 text-gray-700 text-[12px] font-semibold rounded-full transition-colors cursor-pointer"
-                           >
-                             See Full Profile
-                           </Link>
-                         </div>
-         
-                       </div>
-                     </div>
-         
-                   </div>
+          <div className="mt-7 grid grid-cols-1 lg:grid-cols-12 gap-8 items-start relative">
+            
+            {/* Left: Video Box */}
+            <div className="lg:col-span-8 flex justify-center lg:justify-start">
+              <div className="w-full max-w-[720px] h-[479px] bg-[#E3E4E8] rounded-[24px] overflow-hidden relative flex items-end justify-center shadow-xl border border-white/20 shrink-0">
+                <img
+                  src={images20}
+                  alt="Course Instructor"
+                  className="w-full h-full object-cover object-bottom pointer-events-none"
+                />
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="w-18 h-18 rounded-full bg-white/75 backdrop-blur-md flex items-center justify-center shadow-2xl hover:scale-105 transition-transform border border-white/60 cursor-pointer">
+                    <div className="w-0 h-0 border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent border-l-[17px] border-l-gray-700 ml-1.5" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Right: Sidebar */}
+            <div className="lg:col-span-4 relative z-30 -mb-96 py-12 top-14 flex justify-center lg:justify-end">
+              <div className="w-full max-w-[412px] bg-white rounded-[32px] p-10 shadow-[0_20px_50px_rgba(0,0,0,0.08)] border border-gray-100 flex flex-col gap-6 text-left shrink-0">
+                
+                {/* 1. Lessons Syllabus */}
+                <div className="flex flex-col">
+                  <h4 className="text-[18px] font-bold text-gray-900 mb-3 tracking-tight font-['Satoshi',sans-serif]">
+                    112 Lessons (24 hours)
+                  </h4>
+                  <div className="flex flex-col gap-3 text-[13px]">
+                    <div className="flex items-center justify-between text-gray-800">
+                      <span className="truncate pr-2 font-medium">01 Introduction to Digital Assets</span>
+                      <span className="text-[#1456fd] text-xs font-semibold shrink-0">12 mins</span>
+                    </div>
+                    <div className="flex items-center justify-between text-gray-800">
+                      <span className="truncate pr-2 font-medium">02 Design Principles for Impacts</span>
+                      <span className="text-[#1456fd] text-xs font-semibold shrink-0">21 mins</span>
+                    </div>
+                    <div className="flex items-center justify-between text-gray-800">
+                      <span className="truncate pr-2 font-medium">03 Advanced Techniques in Digital Creation</span>
+                      <span className="text-[#1456fd] text-xs font-semibold shrink-0">16 mins</span>
+                    </div>
+                    <span className="text-[12px] text-gray-400 font-medium pt-1">
+                      99 more videos
+                    </span>
+                  </div>
+                </div>
+
+                {/* 2. Price & Enroll Button */}
+                <div className="flex flex-col gap-3">
+                  <p className="text-[13px] text-gray-600 leading-snug">
+                    Ready to Dive In? Enroll Now and Start Building Your Digital Future!
+                  </p>
+                  <div className="flex items-baseline gap-1">
+                    <span className="text-[32px] font-bold text-[#1456fd] leading-none">$25</span>
+                    <span className="text-[13px] text-gray-500 font-normal">/lifetime</span>
+                  </div>
+                  
+                  <button 
+                    type="button"
+                    className="w-full mt-1 bg-[#CBFC01] hover:bg-[#b8e500] text-black font-semibold text-[15px] py-3.5 rounded-full shadow-xs transition-transform active:scale-95 cursor-pointer"
+                  >
+                    Enroll Now
+                  </button>
+                </div>
+
+                {/* 3. This Course Include */}
+                <div className="flex flex-col gap-3">
+                  <h5 className="text-[15px] font-bold text-gray-900 tracking-tight">
+                    This course include
+                  </h5>
+                  <hr className="border-t border-gray-100" />          
+                  <div className="flex flex-col gap-3 text-[13px] text-gray-600">
+                    <div className="flex items-center gap-3">
+                      <FileText className="w-4 h-4 text-[#1456fd] shrink-0" />
+                      <span>Learning Resources</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Video className="w-4 h-4 text-[#1456fd] shrink-0" />
+                      <span>Quality Lesson Videos</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Award className="w-4 h-4 text-[#1456fd] shrink-0" />
+                      <span>Certificate of Completion</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <MessageSquare className="w-4 h-4 text-[#1456fd] shrink-0" />
+                      <span>Private Consultation</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 4. Creator Profile */}
+                <div className="pt-6 border-t border-gray-100 flex flex-col gap-4">
+                  <div className="flex items-center gap-3">
+                    <img
+                      src={images19}
+                      alt="Creator"
+                      className="w-11 h-11 rounded-full object-cover border border-gray-200"
+                    />
+                    <div>
+                      <h5 className="text-[14px] font-bold text-gray-900 leading-tight">PurePearl Studio</h5>
+                      <p className="text-[12px] text-gray-400 mt-0.5">Professional Creator</p>
+                    </div>
+                  </div>
+
+                  <p className="text-[12px] text-gray-500 leading-relaxed">
+                    Ready to Dive In? Enroll Now and Start Building Your Digital Future!
+                  </p>
+
+                  <Link 
+                    to="/creators"
+                    className="w-fit px-5 py-2 border border-gray-200 hover:bg-gray-50 text-gray-700 text-[12px] font-semibold rounded-full transition-colors cursor-pointer"
+                  >
+                    See Full Profile
+                  </Link>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
 
         </div>
       </section>
