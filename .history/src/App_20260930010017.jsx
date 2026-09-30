@@ -15,7 +15,6 @@ import Footer from './components/Footer';
 
 // Auth Page
 import Register from './auth/Register';
-import Login from './auth/Login';
 
 // Full Landing Page Wrapper
 const HomePage = () => (
@@ -42,7 +41,6 @@ function App() {
 
         {/* Register Page Route */}
         <Route path="/register" element={<Register />} />
-        <Route path="/login" element={<Login />} />
       </Routes>
     </BrowserRouter>
   );
