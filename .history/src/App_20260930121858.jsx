@@ -24,9 +24,6 @@ import CourseLessons  from './pages/CourseLessons';
 import CourseReviews from './pages/CourseReviews';
 import CreatorProfile from './pages/CreatorProfile';
 
-//Errors path
-import NotFound from './Errors/NotFound';
-
 // Full Landing Page Wrapper
 const HomePage = () => (
   <div className="min-h-screen bg-white font-sans overflow-x-hidden selection:bg-[#CBFC01] selection:text-black">
@@ -61,10 +58,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
 
-
-
-           {/* Errors Page Route */}
-        <Route path="/notFound" element={<NotFound />} />
+        
 
       </Routes>
     </BrowserRouter>

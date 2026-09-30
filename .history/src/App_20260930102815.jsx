@@ -20,12 +20,6 @@ import Login from './auth/Login';
 //Pages path
 import SearchPage from './pages/SearchPage';
 import CourseDetails from './pages/CourseDetails';
-import CourseLessons  from './pages/CourseLessons';
-import CourseReviews from './pages/CourseReviews';
-import CreatorProfile from './pages/CreatorProfile';
-
-//Errors path
-import NotFound from './Errors/NotFound';
 
 // Full Landing Page Wrapper
 const HomePage = () => (
@@ -52,19 +46,13 @@ function App() {
 
         {/*Serache page Route */}
            <Route path="/serach" element={<SearchPage />} />
-           <Route path="/creator" element={<CreatorProfile />} />
-           <Route path="/courses" element={<CourseDetails />} />
-           <Route path="/lessone" element={<CourseLessons />} />
-           <Route path="/reviews" element={<CourseReviews />} />
+           <Route path="/course-details" element={<CourseDetails />} />
 
         {/* Register Page Route */}
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
 
-
-
-           {/* Errors Page Route */}
-        <Route path="/notFound" element={<NotFound />} />
+        
 
       </Routes>
     </BrowserRouter>
